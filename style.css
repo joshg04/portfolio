@@ -90,15 +90,11 @@ h1, h2{
 .personal-portrait{
     padding: 10px;
 
-    height: 55vh;
-    width: 55vh;
-    position: fixed;
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 650px;
-    
-
     animation-name: slideInBottom;
     animation-duration: 1s;
 }
@@ -106,17 +102,14 @@ h1, h2{
 .main-container{
     display: flex;
     height: 97vh;
-    padding: 40px;
-    margin-left: 40px;
+    padding: 80px;
     justify-content: center;
     align-items: center;
-
 }
 
 .text-container{
     display: flex;
     flex-direction: column;
-    margin-right: 400px;
 
     animation-name: slideInTop;
     animation-duration: 1s;
