@@ -116,15 +116,22 @@ h1, h2{
 }
 
 .cv-container{
-    margin-left: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
 
     animation-name: slideInRight;
     animation-duration: 1s;
 }
 
+.cv-mainwrapper{
+    display: flex;
+    width: 100vw
+}
+
 #cv{
-    height: 45%;
-    width: auto;
+    height: 100vh;
     object-fit: cover;
 }
 
@@ -163,7 +170,8 @@ h1, h2{
 
 .about-container{
     display:flex;
-    flex-direction: row;
     align-items: center;
     padding: 80px;
+    width: 75vw;
+    justify-content: space-between;
 }
